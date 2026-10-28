@@ -1,6 +1,6 @@
 interface VideoPlayerProps {
-  src?: string;
-  poster?: string;
+  src?: string | undefined;
+  poster?: string | undefined;
   title: string;
 }
 
